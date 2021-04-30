@@ -8,12 +8,15 @@ public class Review1 {
 
     Scanner in = new Scanner(System.in);
   
+    // Get user month input
     System.out.print("Enter the month number: ");
     int intMonth = in.nextInt();
    
+    // Get user day input
     System.out.print("Enter the day number: ");
     int intDay = in.nextInt();
 
+    // Calculate total days
     int intSum = intDay;
 
     if (intMonth > 1) { 
