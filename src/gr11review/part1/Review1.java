@@ -1,1 +1,72 @@
 package gr11review.part1;
+
+import java.util.Scanner;
+
+public class Review1 {
+
+  public static void main(String[] args) {
+
+    Scanner in = new Scanner(System.in);
+  
+    System.out.print("Enter the month number: ");
+    int intMonth = in.nextInt();
+   
+    System.out.print("Enter the day number: ");
+    int intDay = in.nextInt();
+
+    int intSum = intDay;
+
+    if (intMonth >= 1) { 
+      intSum = intSum + 31;  
+    }
+      
+    if (intMonth >= 2) {
+      intSum = intSum + 28;
+    }
+
+    if (intMonth >= 3) {
+      intSum = intSum + 31;
+    }
+
+    if (intMonth >= 4) {
+      intSum = intSum + 30;
+    }
+
+    if (intMonth >= 5) {
+      intSum = intSum + 31;
+    }
+
+    if (intMonth >= 6) {
+      intSum = intSum + 30;
+    }
+
+    if (intMonth >= 7) {
+      intSum = intSum + 31;
+    }
+
+    if (intMonth >= 8) {
+      intSum = intSum + 31;
+    }
+
+    if (intMonth >= 9) {
+      intSum = intSum + 30;
+    }
+
+    if (intMonth >= 10) {
+      intSum = intSum + 31;
+    }
+
+    if (intMonth >= 11) {
+      intSum = intSum + 30;
+    }
+
+    if (intMonth >= 12) {
+      intSum = intSum + 31;
+    }
+
+    System.out.println("" + intSum);
+      
+  }
+
+
+}
