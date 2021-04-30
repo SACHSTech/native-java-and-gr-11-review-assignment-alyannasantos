@@ -1,13 +1,13 @@
 language = "java10"
 
 # COMPILE the CLASS and TEST CLASS
-#run = "javac -d bin src/gr11review/part1/Review1.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review1Test.java"
+#run = "javac -d bin src/gr11review/part1/Review3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review3Test.java"
 
 # RUN THE TEST
-run = "java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c gr11review.test1.Review2Test"
+run = "java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c gr11review.test1.Review3Test"
 
 # COMPILE the CLASS
-#run = "javac -d bin src/gr11review/part1/Review1.java"
+#run = "javac -d bin src/gr11review/part1/Review3.java"
 
 # RUN THE CLASS
-#run = "java --class-path bin gr11review.part1.Review2"
+#run = "java --class-path bin gr11review.part1.Review3"
