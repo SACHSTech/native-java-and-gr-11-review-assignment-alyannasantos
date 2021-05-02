@@ -13,11 +13,9 @@ public class Review6 {
     double dblSubtotal = 0.0;
     double dblTax = 0.0;
     double dblTotal = 0.0;
-    int intCount = 0;
 
     // Calculate subtotal and total
     while (true) {
-      intCount++;
       System.out.print("Enter the price for an item: ");
       double dblAmount = Double.parseDouble(key.readLine());
 
