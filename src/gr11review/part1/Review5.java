@@ -37,10 +37,8 @@ public class Review5 {
       intTotalYears++;
     }
 
-
+    // Print out
     System.out.println("The target amount will be earned in " + intTotalYears + " years.");
-
-
 
   }
 
