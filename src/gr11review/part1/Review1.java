@@ -66,6 +66,7 @@ public class Review1 {
       intSum = intSum + 31;
     }
 
+    // Print out number of days
     System.out.println("" + intSum);
       
   }
