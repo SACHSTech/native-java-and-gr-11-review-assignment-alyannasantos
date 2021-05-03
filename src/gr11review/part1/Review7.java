@@ -36,7 +36,7 @@ public class Review7 {
       }
     }
 
-    // Print out
+    // Print out number of spaces, number of letter a, and odd letters
     System.out.println("There are " + intSpace + " spaces in the sentence.");
     System.out.println("There are " + intLetterA + " letter a in the sentence.");
     System.out.println(strOddLetters);
