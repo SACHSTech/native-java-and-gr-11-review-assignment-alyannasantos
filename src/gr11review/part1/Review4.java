@@ -29,7 +29,7 @@ public class Review4 {
     dblTax = dblSubtotal * 0.13;
     dblTotal = dblSubtotal + dblTax;
 
-    // Print out
+    // Print out subtotal, tax, and total
     System.out.println("Subtotal: " + decimalFormat.format(dblSubtotal));
     System.out.println("Tax: " + decimalFormat.format(dblTax));
     System.out.println("Total: " + decimalFormat.format(dblTotal));
