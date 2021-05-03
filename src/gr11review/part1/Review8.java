@@ -22,7 +22,7 @@ public class Review8 {
       }
     }
 
-    // Print out
+    // Print out numbers
     System.out.println(intCount);
 
   }
