@@ -1,20 +1,19 @@
 package gr11review.part1;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class Review1 {
 
-  public static void main(String[] args) {
-
-    Scanner in = new Scanner(System.in);
+  public static void main(String[] args) throws IOException {
+    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
   
     // Get user month input
     System.out.print("Enter the month number: ");
-    int intMonth = in.nextInt();
+    int intMonth = Integer.parseInt(key.readLine());
    
     // Get user day input
     System.out.print("Enter the day number: ");
-    int intDay = in.nextInt();
+    int intDay = Integer.parseInt(key.readLine());
 
     // Calculate total days
     int intSum = intDay;

@@ -1,12 +1,11 @@
 package gr11review.part1;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class Review2 {
 
-  public static void main(String[] args) {
-
-    Scanner in = new Scanner(System.in);
+  public static void main(String[] args) throws IOException {
+    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
     // Options
     System.out.println("0 - print a joke about your hair");
@@ -15,7 +14,7 @@ public class Review2 {
     System.out.println("3 - print a joke about your teacher");
 
     System.out.print("Choose a menu option: ");
-    int intOption = in.nextInt();
+    int intOption = Integer.parseInt(key.readLine());
 
     // Joke contents
     switch (intOption) {
